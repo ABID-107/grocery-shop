@@ -19,159 +19,168 @@
 
 <body>
     <main>
-        <section class="flex justify-center">
-            <div class="mockup-phone border-primary">
-                <div class="mockup-phone-camera"></div>
-                <div class="mockup-phone-display bg-white">
-                    <!-- navbar start  -->
-                    <div class="navbar bg-base-100 shadow-sm pt-10">
-                        <div class="flex-1 items-baseline">
-                            <i class="fa-solid fa-carrot fa-2x fa-rotate-270 flex items-center"
-                                style="color:#14AF00;"></i>
-                            <a class="btn btn-ghost text-2xl text-[#14AF00] font-bold">বাজার
-                                সদাই</a>
-                        </div>
-                        <div class="flex-none">
-                            <ul class="menu menu-horizontal px-1">
-                                <li>
-                                    <details>
-                                        <summary><i class="fa-solid fa-bars"></i></summary>
-                                        <ul class="bg-base-100 rounded-t-none p-2">
-                                            <li><a>Link 1</a></li>
-                                            <li><a>Link 2</a></li>
-                                        </ul>
-                                    </details>
-                                </li>
+        <!-- navbar start  -->
+        <div class="navbar bg-base-100 shadow-sm pt-10 relative flex justify-between w-md md:w-lg">
+            <div class="flex items-baseline">
+                <i class="fa-solid fa-carrot fa-2x fa-rotate-270 flex items-center" style="color:#14AF00;"></i>
+                <a class="btn btn-ghost text-2xl text-[#14AF00] font-bold">বাজার
+                    সদাই</a>
+            </div>
+            <!-- <div class="absolute right-5">
+                <ul class="space-x-30 ">
+                    <il><a href="">1</a></il>
+                    <il><a href="">2</a></il>
+                    <il><a href="">3</a></il>
+                    <il><a href="">4</a></il>
+                    <il><a href="">5</a></il>
+                </ul>
+            </div> -->
+            <div class="flex-none">
+                <ul class="menu menu-horizontal px-1 sm:hidden">
+                    <li>
+                        <details>
+                            <summary><i class="fa-solid fa-bars"></i></summary>
+                            <ul class="bg-base-100 rounded-t-none p-2">
+                                <li><a>Link 1</a></li>
+                                <li><a>Link 2</a></li>
                             </ul>
+                        </details>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- navbar end -->
+        <!-- head start -->
+        <section class="bg-white flex flex-col justify-center space-y-0">
+            <div class="w-md md:w-lg ">
+                <h1 class="text-start text-[30px] font-extrabold pt-2 ml-5 mr-5 md:text-[25px] ">বাছাইকৃত <span
+                        class="text-[#14AF00]">শতভাগ
+                        সেরা</span> সবজি
+                    <span class="text-[#14AF00]">বাজার করুন</span> এখন ঘরে বসেই!
+                </h1>
+            </div>
+            <div class="pt-0">
+                <div class="w-full flex justify-center">
+                    <fieldset class="fieldset border-stone-400/40  rounded-xl w-xs m-10 border-3">
+                        <div class="flex justify-center">
+                            <input type="text" class="input join-item bg-white border-none"
+                                placeholder="এইখানে খুজুন" />
+                            <button class="btn join-item bg-white border-none"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="flex justify-around">
+                    <button class="btn btn-lg rounded-xl bg-white hover:bg-[#14AF00]">শাক-সবজি</button>
+                    <button class="btn btn-lg  rounded-xl bg-white hover:bg-[#14AF00]">মাছ</button>
+                    <button class="btn btn-lg rounded-xl bg-white hover:bg-[#14AF00]">মাংস</button>
+                    <button class="btn btn-lg rounded-xl bg-white hover:bg-[#14AF00]">ফল</button>
+                </div>
+            </div>
+
+        </section>
+        <!-- head end -->
+        <!-- card start -->
+        <section class="flex justify-center">
+            <div class="grid grid-cols-2 min-w-full m-20 md:grid-cols-4">
+                <!-- card-1 -->
+                <div class="card bg-base-100 w-[170px] h-[221px] shadow-sm">
+                    <figure>
+                        <img class="w-[128px]" src="asset/dherosh.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">ঢেঁড়স-৫০০গ্রাম</h2>
+
+                        <div class="card-actions justify-between items-center">
+                            <h2 class="card-title font-extrabold items-center text-[#14AF00]">৳ ৪০</h2>
+                            <button
+                                class="btn btn-primary w-[36px] rounded-br-xl rounded-tl-xl bg-[#14AF00] border-none"><i
+                                    class="fa-solid fa-circle-plus"></i></button>
                         </div>
                     </div>
-                    <!-- navbar end -->
-                    <!-- head start -->
-                    <section class="bg-white flex flex-col justify-center space-y-0">
-                        <div class="w-[304px]">
-                            <h1 class="text-start text-[20px] font-extrabold pt-2 ml-5 mr-5">বাছাইকৃত <span
-                                    class="text-[#14AF00]">শতভাগ
-                                    সেরা</span> সবজি
-                                <span class="text-[#14AF00]">বাজার করুন</span> এখন ঘরে বসেই!
-                            </h1>
+                </div>
+                <!-- card-1 -->
+                <!-- card-2 -->
+                <div class="card bg-base-100 w-[170px] h-[221px] shadow-sm">
+                    <figure>
+                        <img class="w-[128px]" src="./asset/kacha morich.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">কাঁচা-মরিচ-২৫০গ্রাম</h2>
+
+                        <div class="card-actions justify-between items-center">
+                            <h2 class="card-title font-extrabold items-center text-[#14AF00]">৳২৫</h2>
+                            <button
+                                class="btn btn-primary w-[36px] rounded-br-xl rounded-tl-xl bg-[#14AF00] border-none"><i
+                                    class="fa-solid fa-circle-plus"></i></button>
                         </div>
-                        <div class="pt-0">
-                            <fieldset class="fieldset border-stone-400/40  rounded-xl w-xs m-10 border-3">
-                                <div class="join">
-                                    <input type="text" class="input join-item bg-white border-none"
-                                        placeholder="এইখানে খুজুন" />
-                                    <button class="btn join-item bg-white border-none"><i
-                                            class="fa-solid fa-magnifying-glass"></i></button>
-                                </div>
-                            </fieldset>
-                            <div class="flex justify-center space-x-10">
-                                <button class="btn btn-sm rounded-xl bg-white hover:bg-[#14AF00]">শাক-সবজি</button>
-                                <button class="btn btn-sm  rounded-xl bg-white hover:bg-[#14AF00]">মাছ</button>
-                                <button class="btn btn-sm rounded-xl bg-white hover:bg-[#14AF00]">মাংস</button>
-                                <button class="btn btn-sm rounded-xl bg-white hover:bg-[#14AF00]">ফল</button>
-                            </div>
+                    </div>
+                </div>
+                <!-- card-2 -->
+                <!-- card-3 -->
+                <div class="card bg-base-100 w-[170px] h-[221px] shadow-sm">
+                    <figure>
+                        <img class="w-[128px]" src="asset/tomato.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">টমেটো-৫০০গ্রাম</h2>
+
+                        <div class="card-actions justify-between items-center">
+                            <h2 class="card-title font-extrabold items-center text-[#14AF00]">৳৫০</h2>
+                            <button
+                                class="btn btn-primary w-[36px] rounded-br-xl rounded-tl-xl bg-[#14AF00] border-none"><i
+                                    class="fa-solid fa-circle-plus"></i></button>
                         </div>
+                    </div>
+                </div>
+                <!-- card-3 -->
+                <!-- card-4 -->
+                <div class="card bg-base-100 w-[170px] h-[221px] shadow-sm">
+                    <figure>
+                        <img class="w-[128px]" src="asset/potol.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">পটোল-৫০০গ্রাম</h2>
 
-                    </section>
-                    <!-- head end -->
-                    <!-- card start -->
-                    <section class="grid grid-cols-2 justify-center ml-5">
-                        <!-- card-1 -->
-                        <div class="card bg-base-100 w-[170px] h-[221px] shadow-sm">
-                            <figure>
-                                <img class="w-[128px]" src="asset/dherosh.png" alt="Shoes" />
-                            </figure>
-                            <div class="card-body">
-                                <h2 class="card-title">ঢেঁড়স-৫০০গ্রাম</h2>
-
-                                <div class="card-actions justify-between items-center">
-                                    <h2 class="card-title font-extrabold items-center text-[#14AF00]">৳ ৪০</h2>
-                                    <button
-                                        class="btn btn-primary w-[36px] rounded-br-xl rounded-tl-xl bg-[#14AF00] border-none"><i
-                                            class="fa-solid fa-circle-plus"></i></button>
-                                </div>
-                            </div>
+                        <div class="card-actions justify-between items-center">
+                            <h2 class="card-title font-extrabold items-center text-[#14AF00]">৳৩৫</h2>
+                            <button
+                                class="btn btn-primary w-[36px] rounded-br-xl rounded-tl-xl bg-[#14AF00] border-none"><i
+                                    class="fa-solid fa-circle-plus"></i></button>
                         </div>
-                        <!-- card-1 -->
-                        <!-- card-2 -->
-                        <div class="card bg-base-100 w-[170px] h-[221px] shadow-sm">
-                            <figure>
-                                <img class="w-[128px]" src="./asset/kacha morich.png" alt="Shoes" />
-                            </figure>
-                            <div class="card-body">
-                                <h2 class="card-title">কাঁচা-মরিচ-২৫০গ্রাম</h2>
+                    </div>
+                </div>
+                <!-- card-4 -->
+            </div>
+        </section>
+        <!-- card end -->
+        <!-- menu section-->
+        <section class="relative border-2 border-red-400">
 
-                                <div class="card-actions justify-between items-center">
-                                    <h2 class="card-title font-extrabold items-center text-[#14AF00]">৳২৫</h2>
-                                    <button
-                                        class="btn btn-primary w-[36px] rounded-br-xl rounded-tl-xl bg-[#14AF00] border-none"><i
-                                            class="fa-solid fa-circle-plus"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- card-2 -->
-                        <!-- card-3 -->
-                        <div class="card bg-base-100 w-[170px] h-[221px] shadow-sm">
-                            <figure>
-                                <img class="w-[128px]" src="asset/tomato.png" alt="Shoes" />
-                            </figure>
-                            <div class="card-body">
-                                <h2 class="card-title">টমেটো-৫০০গ্রাম</h2>
+            <div class="fixed bottom-0 bg-white w-full">
+                <div class="flex justify-around space-x- items-center h-[60px]">
+                    <i
+                        class="fa-solid fa-gear text-[28px] transition delay-150 duration-300 ease-in-out hover:text-[#14AF00] hover:-translate-y-1"></i>
+                    <i
+                        class="fa-solid fa-bolt text-[28px] transition delay-150 duration-300 ease-in-out hover:text-[#14AF00] hover:-translate-y-1"></i>
 
-                                <div class="card-actions justify-between items-center">
-                                    <h2 class="card-title font-extrabold items-center text-[#14AF00]">৳৫০</h2>
-                                    <button
-                                        class="btn btn-primary w-[36px] rounded-br-xl rounded-tl-xl bg-[#14AF00] border-none"><i
-                                            class="fa-solid fa-circle-plus"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- card-3 -->
-                        <!-- card-4 -->
-                        <div class="card bg-base-100 w-[170px] h-[221px] shadow-sm">
-                            <figure>
-                                <img class="w-[128px]" src="asset/potol.png" alt="Shoes" />
-                            </figure>
-                            <div class="card-body">
-                                <h2 class="card-title">পটোল-৫০০গ্রাম</h2>
+                    <div
+                        class=" p-2 relative transition delay-150 duration-300 ease-in-out hover:text-[#14AF00] hover:-translate-y-1">
+                        <p
+                            class="bg-[#14AF00] text-white text-center items-start rounded-full h-7 w-7 absolute bottom-9 left-6 hidden">
+                            ০</p>
+                        <i class="fa-solid fa-basket-shopping text-[28px] ">
+                        </i>
+                    </div>
 
-                                <div class="card-actions justify-between items-center">
-                                    <h2 class="card-title font-extrabold items-center text-[#14AF00]">৳৩৫</h2>
-                                    <button
-                                        class="btn btn-primary w-[36px] rounded-br-xl rounded-tl-xl bg-[#14AF00] border-none"><i
-                                            class="fa-solid fa-circle-plus"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- card-4 -->
-                    </section>
-                    <!-- card end -->
-                    <!-- menu section-->
-                    <section class="flex justify-around space-x- items-center h-[60px]">
-
-                        <i
-                            class="fa-solid fa-gear text-[28px] transition delay-150 duration-300 ease-in-out hover:text-[#14AF00] hover:-translate-y-1"></i>
-                        <i
-                            class="fa-solid fa-bolt text-[28px] transition delay-150 duration-300 ease-in-out hover:text-[#14AF00] hover:-translate-y-1"></i>
-
-                        <div
-                            class=" p-2 relative transition delay-150 duration-300 ease-in-out hover:text-[#14AF00] hover:-translate-y-1">
-                            <p
-                                class="bg-[#14AF00] text-white text-center items-start rounded-full h-7 w-7 absolute bottom-9 left-6 hidden">
-                                ০</p>
-                            <i class="fa-solid fa-basket-shopping text-[28px] ">
-                            </i>
-                        </div>
-
-                        <i class=" fa-solid fa-cart-shopping text-[28px] transition delay-150 duration-300 ease-in-out
+                    <i class=" fa-solid fa-cart-shopping text-[28px] transition delay-150 duration-300 ease-in-out
                             hover:text-[#14AF00] hover:-translate-y-1"></i>
-                        <i
-                            class="fa-solid fa-user text-[28px] transition delay-150 duration-300 ease-in-out hover:text-[#14AF00] hover:-translate-y-1"></i>
-                    </section>
-                    <!-- menu section-->
+                    <i
+                        class="fa-solid fa-user text-[28px] transition delay-150 duration-300 ease-in-out hover:text-[#14AF00] hover:-translate-y-1"></i>
                 </div>
             </div>
         </section>
+        <!-- menu section-->
     </main>
 
 
